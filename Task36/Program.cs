@@ -14,6 +14,4 @@ for (int j = 1; j < 4; j += 2)
 {
     oddSum = array[j] + oddSum;
 }
-Console.WriteLine(
-    $"Cумма элементов массива [{String.Join("; ", array)}], стоящих на нечётных позициях, составляет {oddSum}"
-);
+Console.WriteLine($"Cумма элементов массива [{String.Join("; ", array)}], стоящих на нечётных позициях, составляет {oddSum}");
